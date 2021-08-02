@@ -1,0 +1,28 @@
+.productBlock {
+  .productName {
+    min-height: 4rem;
+    font-size: 0.9rem;
+  }
+
+  .productImage {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+
+    img {
+      max-height: 12rem;
+      width: 12rem;
+    }
+  }
+
+  .addButton {
+    color: #38C2DE;
+    font-size: 0.9rem;
+    width: 13rem;
+    border-color: #d7d7d7;
+  }
+
+  .addButton:hover {
+    color: white;
+  }
+}

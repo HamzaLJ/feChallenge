@@ -1,0 +1,14 @@
+//Improvement: All colors should be SASS variables
+
+.categoriesBlock {
+  .rounded-pill {
+    font-size: 0.9rem;
+    height: 2.2rem;
+    color: #333;
+    border-color: #E1E1E1;
+  }
+
+  .rounded-pill:hover {
+    color: white;
+  }
+}

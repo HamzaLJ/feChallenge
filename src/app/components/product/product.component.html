@@ -1,0 +1,14 @@
+<div class="row mt-5" *ngIf="products.length > 0">
+  <div *ngFor="let product of products" class="productBlock col-sm-4 col-lg-3 text-center mb-5">
+    <div class="productImage">
+      <img *ngIf="product.imageUrl" [src]=product.imageUrl class="rounded mx-auto d-block">
+    </div>
+    <div class="mt-2 mb-1 productName">
+      {{product.name}}
+    </div>
+    <div class="font-weight-bold">
+      ${{product.price}}
+    </div>
+    <button type="button" class="btn btn-outline-info mt-2 py-2 addButton"><i class="bi bi-plus-circle"></i> Add to cart</button>
+  </div>
+</div>

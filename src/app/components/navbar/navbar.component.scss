@@ -1,0 +1,36 @@
+.navbar {
+  border-bottom: 1px solid rgba(215, 215, 215, 0.5);
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-item {
+    min-width: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+    .label {
+      font-size: 0.6rem;
+    }
+
+    button {
+      font-size: 0.8rem;
+      border-color: #EC6661;
+      padding: 0.3rem;
+      background: #EC6661;
+    }
+  }
+
+  .searchInput {
+    button {
+      border-radius: 0 0.15rem 0.15rem 0;
+    }
+
+    input {
+      outline: none;
+      width: 28rem;
+      border-radius: 0.15rem 0 0 0.15rem;
+    }
+  }
+}
